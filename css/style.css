@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  font-family: "Inter", sans-serif;
+	font-family: 'Inter', sans-serif;
 	max-width: 1160px;
 	width: 100%;
 	margin-right: auto;
@@ -75,3 +75,43 @@ body {
 .site-header__item:active {
 	opacity: 0.6;
 }
+
+/* Main Start */
+.hero {
+	padding-top: 108px;
+	padding-bottom: 124px;
+}
+
+.hero__title {
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 1.25;
+	letter-spacing: 0.2px;
+	color: #1f1f1f;
+	max-width: 935px;
+	width: 100%;
+	margin-bottom: 24px;
+}
+
+.hero__info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero__circle {
+	width: 32px;
+	height: 32px;
+	background-color: #c4c4c4;
+	border-radius: 50%;
+}
+
+.hero__text-wrapper {
+	max-width: 736px;
+	width: 100%;
+	display: flex;
+}
+
+.hero-text:not(:last-child) {
+	margin-right: 41px;
+}
+/* Main End */
