@@ -17,6 +17,29 @@ body {
 	background-color: #fff;
 }
 
+.btn {
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 27px;
+	letter-spacing: 0.2px;
+	text-align: center;
+	color: #fff;
+	background-color: #1f1f1f;
+	padding: 9px 32px;
+	border: 1px solid transparent;
+	transition: all 0.4s ease;
+}
+
+.btn:hover {
+	background-color: transparent;
+	border: 1px solid #1f1f1f;
+	color: #1f1f1f;
+}
+
+.btn:active{
+	opacity: 0.6;
+}
+
 .container {
 	font-family: 'Inter', sans-serif;
 	max-width: 1160px;
@@ -115,3 +138,62 @@ body {
 	margin-right: 41px;
 }
 /* Main End */
+
+/* recent-work */
+.recent-work {
+	padding-top: 101px;
+	padding-bottom: 101px;
+}
+
+.recent-work__title {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+	font-size: 52px;
+	line-height: 1.5;
+	letter-spacing: 0.2px;
+	color: #1f1f1f;
+	margin-bottom: 43px;
+}
+
+.recent-work__list-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 64px;
+}
+
+.recent-work__list {
+	max-width: 520px;
+	width: 100%;
+}
+
+.recent-work__item:not(:last-child) {
+	margin-bottom: 64px;
+}
+
+.recent-work__img {
+	margin-bottom: 20px;
+}
+
+.recent-work__info {
+	border-top: 1px solid #000;
+	margin-top: 9px;
+}
+
+.recent-work__title {
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 33.6px;
+	letter-spacing: 0.2px;
+	color: #464542;
+	margin-bottom: 4px;
+}
+
+.recent-work__list-span {
+	display: inline-block;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+	color: #6d6b67;
+}
